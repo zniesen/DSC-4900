@@ -1,15 +1,14 @@
-#todo: for related businesses we may want to remove the extra stuff at the end :',(
-# https://www.yelp.com/biz/honky-tonk-the-twelve-thirty-club-nashville?page_src=related_bizes
-# so only save up to the ?
+#imports
 import sqlite3
 from selenium.webdriver.common.by import By
+from helper_tools import 
 
-######################################################################################################
 conn = sqlite3.connect("yelp_data.db")
 cursor = conn.cursor()
 conn = sqlite3.connect("yelp_data.db")
 cursor = conn.cursor()
 
+#insert the link of an unscraped location to unvisited 
 def insert_unvisited(link):
     conn = sqlite3.connect("yelp_data.db")
     cursor = conn.cursor()
@@ -19,6 +18,7 @@ def insert_unvisited(link):
     conn.commit()
     conn.close()
 
+#insert the link of a scraped location to visited 
 def insert_visited(link):
     conn = sqlite3.connect("yelp_data.db")
     cursor = conn.cursor()
@@ -28,6 +28,7 @@ def insert_visited(link):
     conn.commit()
     conn.close()
 
+#transfer link from unvisited to visited
 def transfer_unvisited(link):
     conn = sqlite3.connect("yelp_data.db")
     cursor = conn.cursor()
@@ -46,6 +47,7 @@ def transfer_unvisited(link):
     conn.commit()
     conn.close()
 
+#get current unvisited as a list
 def get_unvisited_to_date():
     conn = sqlite3.connect("yelp_data.db")
     cursor = conn.cursor()
@@ -55,6 +57,8 @@ def get_unvisited_to_date():
     unvisited_list = []
     for i in result: unvisited_list.append(i[0])
     return unvisited_list
+    
+#get current visited as a list
 def get_visited_to_date():
     conn = sqlite3.connect("yelp_data.db")
     cursor = conn.cursor()
@@ -64,6 +68,8 @@ def get_visited_to_date():
     visited_list = []
     for i in result: visited_list.append(i[1])
     return visited_list
+
+#scrape the urls of locations in the recommended section at the bottom of a Yelp page
 def extractRecommendedUrls(driver):
     ppl_also_viewed = driver.find_element(By.CSS_SELECTOR,
                                               ".carousel-container__09f24__sm9Zt > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)")
@@ -74,7 +80,7 @@ def extractRecommendedUrls(driver):
     for i in more_locs:
         thing = more_locs.find_element(By.CLASS, " y-css-12x5mn4")
         raw_url = thing.get_attribute("href")
-        link = get_rec_business_url_and_id(raw_url, False)
+        link = helper_tools.get_rec_business_url_and_id(raw_url, False)
         if link in visited:
             return
         else:
@@ -85,46 +91,8 @@ def extractRecommendedUrls(driver):
                 recs.append(chosen_link)
     return chosen_thing, recs
 
-
-
-    # todo finish this
-                # return button to click
-
-    #check if in not visited list
-def get_rec_business_url_and_id(raw_url, want_id):
-    clean_url = raw_url.split('?')
-    if want_id:
-        id = clean_url[0].replace('https://www.yelp.com/biz/', '')
-        return clean_url[0], id
-    else:
-        return clean_url[0]
+# move to an unvisited recommended location
 def simple_wander(driver):
     chosen_one, recs = extractRecommendedUrls(driver)
     insert_visited(get_rec_business_url_and_id(driver.current_url(), False))
     chosen_one.click()
-def wander(driver):
-    chosen_one, recs = extractRecommendedUrls(driver)
-    get_rec_business_url_and_id(driver.current_url(), False)
-    #continue later
-    chosen_one.click()
-
-
-    #get all
-    return
-
-
-# y-css-1ia85zx
-# To Do:
-# - todo extractRecommendedUrls(business_info)
-# - todo saving things to sql tables
-# - todo move on to Recommended location
-# - todo set up crawling logic and data saving for Recommended locations
-
-
-
-
-# To Do:
-# - todo extractRecommendedUrls(business_info)
-# - todo saving things to sql tables
-# - todo move on to Recommended location
-# - todo set up crawling logic and data saving for Recommended locations
