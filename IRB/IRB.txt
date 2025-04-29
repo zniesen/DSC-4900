@@ -1,0 +1,1021 @@
+
+ Belmont University Institutional Review Board
+
+Application for IRB Review (Exempt)
+Title of Project: 
+
+Date proposal submitted to the IRB: 04/29/2025
+
+Proposed project start date and anticipated end date: 05/25/2025-08/15/2025
+
+Date must be at least two weeks from the date of submission, and this research cannot start until exemption verification is received from the IRB.
+ 
+Investigator information
+1.	Name of Principal Investigator (PI): Zoe Niesen
+
+2.	Role: Please indicate either the PI’s credentials (e.g., Pharm D) or Program of Studies (e.g., Master of Education Graduate Student)
+	     Faculty/Credentials: 
+	     Student/Program of Study: Neuroscience/Data Science
+	     Staff/Credentials:
+
+3.	Address: 1900 Belmont Blvd
+	Phone Number: +1 (615) 689-1014	 e-mail: zniesen@proton.me
+
+	Department, school, or program you represent: Belmont University - College of Sciences and Mathematics
+
+4.	List all Associate Investigators (please write or type full name of each investigator--no 
+  signatures required here):
+		
+			Associate Investigator: ___Kayla Ahrndt__________________________________
+
+			Associate Investigator: _____________________________________
+
+			Associate Investigator: _____________________________________
+
+			Associate Investigator: _____________________________________
+
+If more Associate Investigators are involved with this project, electronically insert their names or include them on an attached sheet.
+
+5.	Faculty Sponsor(s) – A faculty sponsor is required for all student research projects:
+		Name: Christina Davis
+	Phone Number:  +1 (225) 278-3877                             e-mail: christina.davis@belmont.edu
+
+
+
+FUNDING
+1.	Expected cost of the research: Please itemize your research expenses.  Please attach a separate list if needed.  0$
+
+2.	Please identify all sources of funding
+Governmental Agency or Agencies:
+Foundation(s): 
+Corporation(s): 
+Organization(s): 
+Belmont University Departmental funds: 
+Individual(s): 
+Other: 
+
+3.	Is this proposal part of a grant?
+              Yes_______      No__X______
+ 
+      If this proposal is part of a grant, please answer the following questions.
+Name of grant:
+Agency or institution providing the grant
+Principal Investigator listed on the grant
+
+DATES AND LOCATION OF RESEARCH  
+1.	Where will the research physically be conducted? Online
+
+2.	Coordination for use of facilities or for medical supervision - if coordination is required for a laboratory, clinical space, supervision, or medical assistance, a signed Letter of Agreement must accompany this application.
+
+COORDINATION WITH OTHER INSTITUTIONAL REVIEW BOARDS 
+(Or other agencies involved with ethical review)
+1.    Subjects from other institutions:
+Will subjects be from other institutions, such as other hospitals, high schools, or other universities?
+Yes_________   No____X____
+
+Name of involved institution/school: 
+No other institutions will be involved, but subjects from other institutions may be recruited online
+	
+ 2.     Has this proposal been or will it be submitted to other Human Subjects Review Boards (IRB Committees), departmental committees or community agencies for review and approval?
+     		       Yes_________   No___X_____
+
+		     If yes, please list the agencies below and attach approval letters from these agencies.  
+
+DESCRIPTION OF THE RESEARCH PLAN 
+     Please be sure to address all of the following questions using lay language.  Please write in complete sentences. 
+
+Clearly state the purpose(s) of your project.
+
+The purpose of the project is to receive feedback from disabled people about what they want from a review website designed for them, what needs are unmet by current review sites and locations, 
+
+Describe your study design. 
+
+This is a descriptive, cross-sectional study utilizing an online survey format to gather feedback from disabled individuals regarding accessibility needs and user experience preferences on review websites.
+
+Explain your instrumentation and methods. Please describe your proposed methodology step by step and attach a copy of surveys, educational tests, or interview scripts.  
+	
+	Participants will see receive a Qualtrics link or see a QR code and upon going to the link, they will see the consent form (Appendix A). If they click “No,” the survey will end, and, if they click “Yes,” they will be sent to the Disability Questionnaire (Appendix B). From there, they will be asked some questions about website accessibility (Appendix C). After completing that to their satisfaction, they will see some questions about what needs are currently unmet by review websites and they will be asked what specific areas of accessibility they would like to answer questions about (Appendix D). Their answers to that question will determine which portions of the survey they see next. 
+	Appendices F-R are questionnaires that will only be shown to people who responded with that specific accessibility need: Anxiety (Appendix F); Auditory Impairments (Appendix H); Bathroom (Appendix I); Chronic pain/fatigue (Appendix J); Cognitive Impairment (Appendix K); Health/safety (Appendix L); Mobility (Appendix M); Parking (Appendix N), Predictability, Consistency, and Adjustability (Appendix O); Reading (Appendix P); Speech (Appendix Q); Sensory Sensitivities (Appendix R); and Visual impairments (Appendix S). The survey uses branching logic to adjust follow-up questions based on each participant’s indicated accessibility interests.
+	Following their completion of their selected sections, they will see the Content Priorities Questionnaire (Appendix S). Following that, they will be sent to a Demographics Questionnaire survey (Appendix T). This will have their same ID, but, will not be included with the rest of their data.  Afterward, they will see a closing message (Appendix _) and have the option to take a separate Qualtrics survey (Appendix _) that just asks where they heard about this study. This information will not be connected in any way to their other information (different ID), and is simply to see which methods of advertising the study are effective at recruiting.
+
+Describe your plan for data analysis and statistics (if applicable).
+Descriptive research, so data analysis will largely depend on how many people fill out the survey, and which/how many questions each of them answers. 
+
+SUBJECTS
+1.	Number of Subjects and Controls:
+a. Number of subjects you intend to solicit: 1000 (Please note the number you intend to solicit should be more than the number you expect to participate.) 
+	b. Approximate number of subjects you expect to participate: ~200
+	c. Proposed number of controls (if appropriate): N/A
+
+2.	 Types of Subjects and Controls:
+	a.    Age range of subjects: 18+
+	b.    Population from which subjects were derived: disabled individuals with internet access
+	c.    Inclusion criteria for subjects and controls: identify as disabled in some way
+d.    Exclusion criteria for subjects and controls (Include any age, sex, physical, mental and health restrictions): 
+
+3.	Describe the specific steps to be used to identify and/or contact prospective participants. If applicable, describe how you have access to lists of potential participants. Recruitment telephone and/or e-mail scripts and advertisements should be submitted with this form as well.
+
+Links will be provided to different spaces including a Disabled in STEM mentorship program Slack Channel, Discord Servers, iMessage group chats, word of mouth, social media, and posters (will be included in an IRB modification)
+
+4.	Subject Screening Procedures: Describe the screening procedures you will use to determine if subjects are able to participate in your study.  Specifically explain how the results of your screening procedures will be used to identify subjects who are eligible to participate in your study and identify persons who are ineligible to participate in your study. Attach any questionnaires or screening forms you will use with this application.
+Theoretically, anyone should be able to participate in this. It will be requested that only disabled people respond to it, but there won’t be anything stopping someone else from taking it because we will not be asking for them to give any information that might jeopardize their anonymity.
+
+5.	Describe the tasks that participants will be asked to perform for each phase of the study.
+The tasks are all questionnaires. The number of questions and which questions are asked will be determined by their responses to prior questions. 
+
+Survey
+Content
+Appendices
+1
+Consent form and Prescreening
+A, B 
+Disability Questionnaire
+C
+
+Website Accessibility Questions
+D
+
+Need Assessment
+E
+
+Specific Accessibility Sections
+F-
+
+Content Priorities
+
+2
+Demographics 
+ 
+3
+Follow-Up Survey
+
+
+
+6.	Provide an estimate of the participant time commitment for each phase of the study.
+Survey
+Content
+Estimated Time frame (minutes)
+1
+Consent form and Prescreening
+2 
+Disability Questionnaire
+3-4 
+
+Website Accessibility Questions
+1-2 
+
+Need Assessment
+3-5 
+
+Specific Accessibility Sections
+0-15 
+
+Content Priorities
+4-5 
+2
+Demographics
+1
+3
+Follow-Up Survey
+1
+Total estimated time
+
+14-35
+
+
+
+7.	Will your subjects receive any incentives of compensation in any form for participating in this study?
+             Yes______    No___X____
+              If yes, please explain:
+
+ASSESSMENT OF RISKS AND BENEFITS:   
+1.	Exemption status may be granted only when minimal risk exists. Explain why participation in this study will involve minimal risk.
+
+It will involve minimal risk because there is no manipulation. It is simply a survey about people’s opinions on accessibility, and participants are encouraged not to share information that may make them identifiable on every survey page. 
+
+There is not greater discomfort than faced in everyday life because questions are simply asking about daily life. 
+
+Note- Minimal risk means that the probability and magnitude of harm or discomfort anticipated in the research are not greater in and of themselves than those ordinarily encountered in daily life or during the performance of routine physical or psychological examinations or tests.
+ 
+2.	What are the benefits of this study?
+
+I am working on a greater project that scrapes review information from various websites and uses that information as a starting dataset for an accessibility-centered review website. The responses people give to this survey will inform decisions made in this venture, so that their needs are better met. Participating in this allows people to get their voices heard and allows me to serve this population better. Additionally, participants may become more educated on different aspects and kinds of accessibility that they had not considered or thought of prior, and, were there to be a publication using this data, they would be directly represented. 
+
+PRIVACY, CONFIDENTIALITY AND DATA MANAGEMENT
+Subject Privacy: What measures will you take to protect your subjects’ privacy? Examples include interviewing subjects one at a time in a closed room, interviewing subjects over the phone, or e-mailing a questionnaire in such a way that subjects cannot see identifying information of other subjects.
+
+Subjects will never be able to see one another’s information because participation is 100% remote. Participants will have the option of filling out the survey on Qualtrics or printing and mailing a physical copy of the survey. 
+
+Subject Confidentiality and Anonymity:  Indicate if your data will be anonymous.  If not anonymous, describe how data/study records will be kept confidential and specify safeguards to be implemented for protecting participant information and minimizing potential risks to subjects (i.e., password-protected computer(s), file encryption, etc.). If possible, consider how the data you collect could be anonymous (i.e., no identifiers).
+
+Data will be totally anonymous. Absolutely no IP addresses, or anything of that nature will be collected. All questions are optional, so no one must answer anything they are uncomfortable with or that could identify them in order to participate.
+
+Demographics questions and answers will be asked in a different survey with linked IDs to the first. Participants will also have the option to fill out the demographics form on a separate survey resource, with the idea being, in the event of a data breach, neither source would have enough information about the participants to identify them. 
+
+The question about how they learned about this project will be in a completely separate survey from the main and demographics surveys (no ID linking, new form)
+
+Data Confidentiality and Management:
+
+Will you be audio or video recording subjects?   
+                         Yes________  	No___X____
+If yes, please explain why this is necessary. Also, please complete and include the Recording Permission form found on the IRB website. 
+
+Please explain how you will protect the identities of subjects who have had audio or video recordings. The usual procedure is to transcribe recordings and then destroy the original audio or video recordings.  
+
+Data Storage:
+a.	How long do you plan to store your data? You must store data a minimum of three years per federal regulations.
+
+Data will be stored for 3 years after data collection has ended.
+
+b.	How will you dispose of your data at the end of your data storage time?
+
+Any data will be overwritten multiple times before being deleted.
+
+c.	Where will you store your data (be specific)? If you are de-identifying your data, where will you store your identification key? The identification key must be stored separately from   your data.
+
+Data will be anonymously collected, and stored online in the survey platforms until data collection has ended, then it will be stored on a csv file on a personal, password protected device, and online survey data will be deleted. 
+
+
+
+d.	Please explain who will have access to the data and under what circumstances.
+No one save for Zoe Niesen, Kayla Ahrndt, and Christina Davis will have access to this data.
+
+e.	How will you protect the data from unauthorized access?
+It will be stored locally on a csv file on a personal, password protected device as soon as collection has ended, and Qualtrics data will be deleted. 
+
+
+INFORMED CONSENT
+1.	Describe your consent procedures. 
+It must be clear in this description of informed consent that the PI(s) will provide the prospective subject sufficient opportunity to discuss and consider whether or not to participate and minimize the possibility of coercion or undue influence. 
+The use of a signed consent document may not be required but those participants must be informed about the purpose of the study. If there is no in-person contact, an investigator will provide a participant an IRB-approved information sheet that does not require a signature explaining the purpose of the study, how the data will used, how the data will be kept anonymous, etc. (see “Forms”= “Consent for Exempt Projects” on the Belmont IRB webpage for guidelines for this letter).
+People must agree to the conditions outlined in the consent form on Qualtrics in order to gain access to the survey. 
+
+2.	Does this research involve the use of protected health information (PHI)? Yes
+
+Note: If you plan to use or share protected health information (PHI) when conducting your research, you must conduct your study in accordance with the Privacy Rule of the Health Insurance Portability and Accountability Act (HIPAA). This means that when applying for a waiver of documentation of consent, you will also have to request a waiver or alteration of HIPAA Authorization.  The IRB can grant the waiver of alteration if it deems the following criteria are met. Please address each part of the criteria:
+a.	An adequate plan to destroy identifiers at the earliest opportunity absent a health or research justification or legal requirement to retain them, and
+b.	An adequate plan to protect health information identifiers from improper use or disclosure
+c.	An adequate plan to destroy identifiers at the earliest opportunity absent a health or research justification or legal requirement to retain them, and
+d.	Adequate written assurances that the PHI will not be used or disclosed to a third party except as required by law, for authorized oversight of the research study, or for other research uses and disclosures permitted by the Privacy Rule;
+e.	Research could not practicably be conducted without the waiver or alteration; and
+f.	Research could not practicably be conducted without access to and use of PHI.
+
+Any demographic information that is tied to participant data will be destroyed after data is cleaned. Demographic information will then be kept in a summarized format such that there will be no way to link together information that would make a subject identifiable.
+
+Questions regarding health information are vague, and only specific enough to get the information needed. For example, questions would be asked, “Do you use mobility aides? What kind? How often?” rather than asking for the medical reason why behind someone’s mobility aide usage. 
+
+All questions are optional. Subjects will be made aware of this and be encouraged not to answer questions that may deanonymize their response.
+
+CERTIFICATION:
+My signature below indicates that I will operate in accordance with all federal and Belmont University regulations governing research involving human subjects as stated in the IRB guidelines for the protection of human subjects. 
+
+I certify I will follow the study protocol and the method of obtaining informed consent as approved by the IRB during the period of the research project.  I will submit any changes of protocol, investigator, consent or recruiting of participants to the IRB and receive IRB approval before implementing any changes. I will report any adverse reactions or subject complaints will be reported within 48 hours to the Chair of the IRB.  I will maintain all records of this research as required by the Belmont University Institutional Review Board. 
+
+The Principal Investigator and Principal Faculty Advisor (for student projects must sign below:
+
+Principal Investigator 	 Date 	
+
+Principal Faculty Advisor’s Statement (for student projects only)
+
+I, ______________________________, am the faculty advisor for _______________________.  My signature below indicates that I have read the attached protocol and have checked the contents with IRB guidelines.  
+
+Faculty Advisor	 Date 	
+
+Additional signatures may be required by your department.  Add lines below as needed:
+
+Faculty Advisor	 Date 	
+
+Associate Investigator 	 Date 	
+
+
+
+
+
+Appendix 
+Appendix A 
+Consent Form 
+ 
+Informed Consent to be Part of a Research Study 
+Title of the Project:  Sensory Space: Redefining Accessibility based on Disabled Experience 
+Principal Investigator: Zoe Niesen; Department of Psychological Sciences and Neuroscience and Department of Mathematics & Computer Science  
+Faculty Advisor: Christina Davis, PhD; Department of Mathematics & Computer Science  
+Associate Investigator: Kayla Ahrndt; Department of Mathematics & Computer Science  
+Invitation to be Part of a Research Study 
+You are invited to participate in a research study. To participate, you must be 18 years old or older and must be disabled. Taking part in this research project is voluntary. 
+Important Information About the Research Study 
+ Here are some things you should know about this study: 
+•	You are invited to take part in a research study about the accessibility needs of people with disabilities when using review websites (e.g., for restaurants, businesses, or public spaces). The goal is to better understand how current websites serve—or fail to serve—these needs.
+•	If you choose to participate, you will be asked to [do what, when, where, and how].  
+•	Your participation will take approximately 15-35 minutes depending on how many questions you choose to answer
+•	Risks or discomforts from this research include [briefly describe]. 
+•	The study will [description of potential direct benefits to subjects – or no benefits]. 
+•	Taking part in this research project is voluntary. You don’t have to participate, and you can stop at any time. 
+More details are provided below about this research study. Please take all the time you need to read this entire form, and feel free to reach out if you have any questions. 
+What is the study about and why are we doing it? 
+This study explores how people with disabilities and related access needs engage with review websites and what kinds of information are most helpful in making decisions about public spaces and services. The goal is to identify ways to improve accessibility features and review systems to better meet community needs.
+Belmont University expects to enroll approximately 200 participants in the research. 
+What will happen if you take part in this study? 
+If you agree to take part in this study, you will be asked to complete a survey that includes 
+-	A few general questions about disability or neurodivergent identity
+-	Questions about your experience with website accessibility
+-	Questions about accessibility needs not currently being met on review platforms
+-	A set of sections based on accessibility areas that matter most to you (e.g., vision, anxiety, mobility, chronic pain, etc.)
+-	A short set of questions about what content and features are most important to you
+-	Some demographic questions 
+All sections and questions of this survey is completely optional. We would prefer you to only answer questions that would be beneficial to you and do not pose a risk of making your response identifiable as yours.
+How could you benefit from this study? 
+You might benefit from being in this study because [insert description of why here] you would get your voice heard on the design and information used as part of an accessibility website 
+What are the risks of being in this study? 
+There are some risks you might experience from being in this study. They are that, in the event of a data breach, your responses could be used to identify you. To limit this risk, names and specific location information (IP addresses), will not be collected. 
+Demographic information will also be requested on a different survey website, so that, in the event of a data breach on either platform, it would be harder to identify you.
+You are also discouraged from answering any questions that could make your response identifiable as yours, and every question is optional. 
+You must immediately tell the researchers if you have any injuries or other problems related to your participation in the study. The University may be able to assist you with obtaining emergency treatment, if appropriate, but you or your insurance company will be responsible for the cost. By signing this form, you do not give up your right to seek payment if you are harmed as a result of being in this study. 
+Primary risks include information leakage. 
+How will we protect your information? 
+If we publish or present the results of this study at a conference, to protect your privacy, we will not include any information that could directly identify you.  
+We will protect the confidentiality of your research records by not collecting any directly identifiable information and by storing any demographic information (race, gender, age group) separately from the rest of the survey data following download. Your name and IP address will not be collected, and all questions are optional. You will be encouraged not to answer any questions that make you uncomfortable, or that could make your response identifiable. 
+It is possible that other people may need to see the information we collect about you. These people work for Belmont University, and are responsible for making sure the research is done safely and properly.  
+Otherwise, data will only be stored on Qualtrics or on a password-protected device. 
+What will happen to the information we collect about you after the study is over? 
+We are required to keep your research data for a minimum of three years. Demographic information that can directly identify you will be deleted from the research data collected as part of the project, after data is cleaned and it is summarized. After three years, all of your research data will be destroyed. 
+Demographic information might be removed from your private information collected as part of this research. The information could be used for future research or distributed to another Principal Investigator (PI) for future research without obtaining additional informed consent. 
+Will you be paid for being part of this study? 
+You will not receive anything for being in this study.   
+What are the costs to you to be part of the study? 
+ You do not need to pay anything to participate in this study, unless you prefer to mail in your survey responses.
+Is your participation in this study voluntary? 
+Your participation in this research study is entirely voluntary.
+It is totally up to you to decide to be in this research study. Even if you decide to be part of the study now, you may change your mind and stop at any time. If you decide at any point not to participate in the study, you will not be treated differently, and you will receive the same care as everyone else.
+If you decide to stop participating and you do not want your responses to be used in this research, please type “withdraw” in any text box and click next before exiting the survey. reminder of this will be displayed at the top of each survey page. 
+If you decide to stop participating but you are comfortable with us using your previous responses, you may simply click next to save your responses then exit the survey without typing anything. 
+You can also pause the survey and come back to finish it. To do this, click Next on any page, then save the custom link that appears. This survey is completely anonymous, so we will not be able to send the link to you again.
+You’re welcome to skip any questions that you don’t feel comfortable answering or don’t think are helpful for you to answer. You never have to respond to anything you don’t want to. 
+If you type “withdraw” in any text box then press the “Next” button (so that response saves), your responses will be excluded from the research and deleted during the data cleaning process.
+Who should you contact if you have questions about the research or about your rights as a research participant? 
+If you have questions about this research, you may contact Zoe Niesen (zniesen@proton.me) or Christina Davis (christina.davis@belmont.edu) 
+If you have questions about your rights as a research participant, or wish to obtain information, ask questions, or discuss any concerns about this study with someone other than the researcher(s), please contact Erich Baker, Ph.D., Vice Provost for Research and Strategy Initiatives (615) 460-5867 or erich.baker@belmont.edu. 
+Also, if you experience an injury because of this study, please immediately contact Zoe Niesen or Christina Davis. 
+What if new information becomes available?  
+In the event new information becomes available that may affect your willingness to participate in this research, the information will be integrated into the survey as soon as possible so you can make an informed decision about whether or not to continue your participation.  
+Your consent 
+By selecting yes, you agree to be in this study and agree that you meet the conditions to participate. Make sure you understand what the study is about before you proceed. If you have any questions about the study after you sign this document, you can contact the study team using the information provided above. 
+I understand what the study is about, and my questions so far have been answered. I agree to take part in this study.  
+Response Options: Yes, No 
+  
+  
+ 
+
+Appendix
+Appendix B
+Screening Question
+1. Are you at least 18 years old?
+-	Yes
+-	No
+Appendix 
+Appendix B 
+Screening/Disability Questionnaire 
+The following questions predominantly relate to disability information. The reasons for collecting this information are:  
+1.	So we can ensure the website serves the population it intends to in every way possible. 
+2.	So we know which populations have been reached by the survey, and what is important to each of them 
+Only answer questions that you feel comfortable answering, and that will not reveal your identity. 
+
+1.  Do you identify as a person with a disability that was present at birth, caused by an accident, or developed over time; 
+•	that encompasses any degree of physical disability, mental or developmental disability, sensory disability, learning disability, mental health / psychiatric disability, addiction, and life-threatening allergies,
+•	that may affect full participation in society (school / work),
+•	that may have been accommodated in workplace / school because of functional limitation as a result of the disability, or,
+•	who, as a result of self-perception, perception of others, environmental barriers, inaccessible attitudes, or a any combination of these factors, may experience unequal opportunity to access services by reason of the disability? 
+1.	Yes, No, Prefer to self-identify: ____________, Prefer not to answer 
+ 
+2.  Are you taking this survey on behalf of someone else? 
+1.	Yes, No, Prefer not to answer 
+ 
+3.  Can you tell us about your disabilities? (Only share to your comfort level, do not share information that could compromise your anonymity)  
+1.	[text box] 
+ 
+4.  Do you identify as neurodivergent? (Neurodivergence refers to individuals whose brain function or cognitive patterns differ from what is considered typical. This can include conditions such as ADHD, autism, dyslexia, etc.) 
+1.	Yes, No, Prefer not to say 
+ 
+5.  If yes, please describe your neurodivergent experience to your comfort level (Feel free to share conditions and symptoms, but do not share information that could compromise your anonymity) 
+1.	[text box] 
+ 
+6.  If you listed any conditions, were you officially or self-diagnosed? 
+1.	Officially diagnosed 
+2.	Self-diagnosed 
+3.	Some official, some self-diagnosed [text box] 
+4.	I did not list any conditions. 
+5.	Not listed [text box] 
+
+ Appendix 
+Appendix C 
+Website Accessibility Survey 
+
+1.	Do you use any assistive technologies or have preferences regarding website design (e.g., screen readers, text-to-speech, adjustable fonts, high contrast, etc.)? 
+1.	Yes [text box], No 
+ 
+2.	Are there features that help you better navigate websites? Select all that apply. 
+1.	Adjustable font size 
+2.	Text-to-speech support 
+3.	Screen reader compatibility 
+4.	Color contrast control 
+5.	Keyboard navigation 
+6.	Captions or transcripts 
+7.	Dark mode 
+8.	Other: [textbox]
+
+  
+Appendix 
+Appendix D 
+Need Assessment 
+ 
+1.	What types of spaces or services do you most frequently use or visit? (multi-select) 
+1.	Restaurants 
+2.	Public transportation 
+3.	Retail stores 
+4.	Educational facilities 
+5.	Medical facilities 
+6.	Parks/gardens 
+7.	Indoor public spaces 
+8.	Not Listed [textbox] 
+ 
+2.	How do you usually find accessibility information when looking for places to visit or services? (multi-select) 
+1.	Review websites 
+2.	Business websites 
+3.	Google Reviews 
+4.	Yelp 
+5.	TripAdvisor 
+6.	Roll Mobility 
+7.	IAccessLife 
+8.	The location’s website 
+9.	Calling ahead 
+10.	Not Listed [textbox] 
+ 
+3.	How often do you rely on online reviews or websites to make decisions about accessible places or services? 
+1.	Never, sometimes, about half the time, most of the time, always 
+ 
+4.	How often is accessibility information available on websites accurate? 
+1.	Never, sometimes, about half the time, most of the time, always 
+ 
+5.	What has been your experience with existing review platforms regarding accessibility information? What works well, and what could be improved? 
+1.	[Textbox] 
+ 
+6.	Are there any critical accessibility details you find difficult to locate in current online reviews (ramp availability/usability, accessible restrooms, noisy surroundings, etc.)? 
+1.	Yes: [Textbox], No 
+ 
+7.	How often do you write reviews or answer questions on review platforms? 
+1.	Never, Sometimes, About half the time, Most of the time, Always 
+ 
+8.	Please select “Always” to indicate you are paying attention and are not a robot
+1.	Never, Sometimes, About half the time, Most of the time, Always 
+
+9.	Are you willing to review locations’ accessibility as it relates to you? (Select all that apply) 
+1.	I am willing to write descriptive reviews 
+2.	I am willing to verify descriptions written by others 
+3.	I am willing to comment on someone else’s review 
+4.	I am willing to write descriptive reviews if there is not one that already describes my experience 
+5.	I am willing to rate a location on different accessibility characteristics (Like out of 5 stars) 
+6.	I am unwilling to do any of these 
+7.	Not Listed [textbox] 
+
+10.    Would you like to get out more than you do currently? If so, what would facilitate that?  
+1.	[textbox] 
+11.  Please indicate any of the following areas of accessibility you would like to answer questions about: 
+1.	Anxiety (generalized, social) 
+2.	Auditory impairments 
+3.	Bathroom 
+4.	Chronic pain/fatigue 
+5.	Cognitive Impairment 
+6.	Health/safety 
+7.	Mobility  
+8.	Predictability/Consistency and Adjustability 
+9.	Reading 
+10.	Speech 
+11.	Sensory Sensitivities 
+12.	Service Animals
+13.	Transportation
+14.	Visual impairments 
+ Appendix 
+Appendix E 
+Anxiety Accessibility Questionnaire 
+[These questions will be shown to people who selected Anxiety on Need Assessment question 11]  
+1.	 What accommodation information would be most useful for you to know before choosing or visiting a destination? 
+1.	Low-pressure environment 
+2.	Low interaction requirement 
+3.	Situations that require interaction 
+4.	Private rooms availability 
+5.	What is available without needing to ask? 
+6.	Is it difficult to leave once seated? 
+7.	Emergency exit locations 
+8.	Not listed [textbox] 
+2.	Is there anything else you would like to share? 
+1.	[textbox] 
+ 
+  
+Appendix
+Appendix F 
+Auditory Impairment Accessibility Questionnaire 
+[These questions will be shown to people who selected Auditory Impairment on Need Assessment question 11] 
+
+The following questions relate to 
+ 
+1.	What accommodation information would be most useful for you to know before choosing or visiting a destination? 
+1.	ASL interpretation available 
+2.	CCTV 
+3.	Nonauditory emergency cues 
+4.	assistive listening system*??? 
+5.	Private rooms available 
+6.	Visually lit exit signs 
+7.	Written ordering available 
+8.	Not Listed [textbox] 
+2.	Is there anything else you would like to share? 
+1.	[textbox] 
+ 
+ Appendix  
+Appendix G 
+Bathroom Accessibility Questionnaire 
+[These questions will be shown to people who selected Bathroom on Need Assessment question 11] 
+
+1.	What accommodation information would be most useful for you to know before choosing or visiting a destination? 
+1.	How common are bathrooms 
+2.	Key or code necessary? 
+3.	Easy to find 
+4.	Number of stalls  
+5.	Number of accessible stalls 
+6.	Grab bars 
+7.	Sink height 
+8.	Sink knee clearance 
+9.	Publicly available bathroom 
+10.	Cleanliness 
+11.	Toilet seat covers available 
+12.	Menstrual products available (any? Which menstrual products? Price? Which bathrooms?) 
+13.	Height of toilet 
+14.	Emergency pull cord available 
+15.	Door clearance 
+16.	Is there often a line to use the bathroom? 
+17.	Gender neutral bathroom available 
+18.	Family bathroom available 
+19.	All bathrooms have change tables 
+20.	All bathrooms have accessible change tables 
+21.	Non-bathroom lactation area available 
+22.	Not listed [textbox] 
+2.	Is there anything else you would like to share? 
+1.	[textbox] 
+  
+Appendix
+Appendix H 
+Cognitive Disability Accessibility Questions 
+[These questions will be shown to people who selected Cognitive Disability on Need Assessment question 11] 
+Instructions: The following questions relate to accessibility for those with ______, please answer to your comfort level, skipping any questions you don’t feel comfortable answering or you don’t feel would benefit you to answer. If you decide to stop participating and you do not want
+1.	What accommodation information would be most useful for you to know before choosing or visiting a destination? 
+1.	Patient staff 
+2.	Visual menus 
+3.	Easy-to-read 
+4.	Assisted order 
+5.	attended checkout 
+6.	Agency respected 
+7.	directions/assistance available 
+8.	Low-pressure environment 
+9.	Not Listed [textbox] 
+2.	Is there anything else you would like to share? 
+•	[textbox] 
+  
+Appendix 
+Appendix I 
+Chronic Pain/Fatigue Accessibility Questionnaire 
+[These questions will be shown to people who selected Chronic Pain/Fatigue on Need Assessment question 11] 
+
+2.	What accommodation information would be most useful for you to know before choosing or visiting a destination? 
+•	Seating available 
+•	How much seating available (like along paths?) 
+•	Break points 
+•	What kind of seating (stools? Bar seating or table? ergonomic?) 
+•	Back support 
+•	How much walking needed with or without disabled parking 
+•	Walls or banisters to lean on 
+•	Leg room 
+•	Crowdedness (is there space to move/stretch for people who have to stay moving?)  
+•	Space to sit on floor  
+•	Space to lay on floor 
+•	Adequate space for mobility aids 
+•	Forced movement (is there space to stop for people who have to be still?) 
+•	Do they allow water/meds inside? 
+•	Temperature 
+•	Not Listed [textbox] 
+3.	Is there anything else you would like to share? 
+1.	[textbox] 
+ 
+ 
+Appendix 
+Appendix J 
+Health/Safety Questionnaire 
+[These questions will be shown to people who selected Health/Safety on Need Assessment question 11] 
+
+ 
+1.	What safety precautions or accommodation information would be most useful for you to know before choosing or visiting a destination? 
+•	Mask policy (required for workers, customers) 
+•	Masks required for everyone 
+•	Social distancing practiced 
+•	Surface disinfection frequency 
+•	Airflow/ventilation 
+•	HEPA filters 
+•	Contactless available 
+•	Consistently available hand sanitizer 
+•	Crowdedness 
+•	PPE available 
+•	Masks available 
+•	Allergen precautions taken 
+•	What kind of allergen precautions taken? 
+•	Smoking allowed? 
+•	Busy hours 
+•	Staff hygiene 
+•	Gloves 
+•	Clear Signage for Room Occupancy 
+•	Not Listed [textbox] 
+
+2.	Is there anything else you would like to share? 
+-	[textbox] 
+ 
+  
+Appendix 
+Appendix K 
+Mobility Restrictions Questionnaire 
+[These questions will be shown to people who selected Mobility on Need Assessment question 11] 
+ 
+
+ 
+1.	Describe your mobility to your comfort level: 
+•	[Textbox] 
+2.	Do you make use of any mobility aides? Which?  (multi-select) 
+•	Cane 
+•	Cane (Offset) 
+•	Cane (Quad) 
+•	Cane (Standard) 
+•	Crutches  
+•	Crutches (Axillary/Underarm) 
+•	Crutches (Forearm) 
+•	Crutches (Hands free) 
+•	Mobility Scooter 
+•	Rollator 
+•	Specialty Mobility Devices 
+•	Walker 
+•	Walker (Standard) 
+•	Walker (2-Wheel) 
+•	Wheelchair 
+•	Wheelchair (Manual) 
+•	Wheelchair (Powered) 
+•	Wheelchair (All-Terrain) 
+•	Prefer Not to Say 
+•	Not Listed [textbox] 
+•	I do not use any mobility aids 
+3.	What features would be most helpful to you? (multi-select) 
+•	Disabled parking 
+•	Disabled parking distance information 
+•	Disabled parking usability/usefulness (Access aisle is not cut off by curbs, etc) 
+•	Number of disabled parking spaces 
+•	Enough disabled parking spaces available 
+•	Designated drop off zones 
+•	Steepness (of ramps and of any inclines between parking and destination) 
+•	Location of ramp 
+•	Length of ramp 
+•	Wide ramps 
+•	Wide turns 
+•	Elevator information (how many are there? How reliable are they? Has anyone experienced a time when none were operational?) 
+•	Elevator size 
+•	Elevator railings 
+•	Reviews from someone that uses same mobility aide as you do 
+•	Smooth surfaces? 
+•	Tripping hazards? 
+•	Clean floors 
+•	Flooring/Paving 
+•	Protruding objects? 
+•	Lever-operated hardware 
+•	Button operated doors 
+•	Heavy doors 
+•	Grab bars (do they exist? Are they regularly sanitized?) 
+•	Uninterrupted/usable path of travel 
+•	Maneuvering clearance 
+•	Crowded (people) 
+•	Crowded (objects) 
+•	Stair height 
+•	Is everything needed within reaching range 
+•	Nearest bus stop 
+•	Walkable nearest bus stop 
+•	Rollable nearest bus stop 
+•	Is the accessible way the normal way to go 
+•	Accessible main entrance/Not having to use a roundabout way to get where you want to go) 
+•	Accessible emergency exit 
+•	(For concert venues) Seating standing room 
+•	(For concert venues) disabled spaces with visibility 
+•	Leg room 
+•	Emergency pull cord available 
+•	Not listed: [text box] 
+ 
+  
+Appendix 
+Appendix L 
+Predictability/Consistency and Adjustability Questionnaire 
+[These questions will be shown to people who selected Predictability/Consistency on Need Assessment question 11] 
+
+ 
+1.	What features would be most helpful to you? (multi-select) 
+•	Reservations available 
+•	Mobile Ordering 
+•	Phone number that gets answered upon calling 
+•	Menu available in advance 
+•	Menu items consistently available 
+•	Busy hours 
+•	Do out of stock items tend to be up to date online? 
+•	Floor plan 
+•	Do they allow you to reserve specific tables? 
+•	Private rooms available? (dining/study?) 
+•	Free wifi 
+•	Payment required for presence 
+•	Willingness and ability to adjust orders 
+•	Order adjustment execution quality 
+•	Willingness and ability to adjust lighting 
+•	Private rooms available 
+•	Window opening? 
+•	Temperature?? 
+•	Wait time 
+•	Fast service 
+•	Not listed [textbox] 
+ 
+2.	Is there anything else you would like to share? 
+•	[textbox] 
+  
+Appendix 
+Appendix M 
+Reading Accessibility 
+
+[These questions will be shown to people who selected Reading on Need Assessment question 11] 
+
+
+
+1. What features would be most helpful to you? (multi-select) 
+•	Accessible font on signs 
+•	Accessible font type on menu 
+•	Large font size on menu 
+•	Accessible line spacing 
+•	Visual menus 
+•	Easy-to-read 
+•	Not listed [textbox] 
+2. Is there anything else you would like to share? 
+•	[Textbox] 
+ 
+  
+Appendix 
+Appendix N 
+Sensory Sensitivities Questionnaire 
+[These questions will be shown to people who selected Sensory Sensitivities on Need Assessment question 11]  
+Instructions: Please answer to your comfort level, skipping any questions you don’t feel comfortable answering or you don’t feel would benefit you to answer. If you decide to stop participating and you do not want
+1.	Which features would be most helpful to you? 
+•	Light level (bright, dark) 
+•	Light kind (fluorescent, natural, LED, warm, cool, yellow, blue) 
+•	Sound level 
+•	Sound type (what kind of noises are frequent? Talking? Are conversations distinguishable?) 
+•	Sound consistency (is it like white noise, or is there the occasional noise that breaks through a normally quiet environment) 
+•	Music (existence, type, volume) 
+•	Scent (is it one of those perfumy places, airflow, can you smell food? What kind? Etc.) 
+•	Scent strength 
+•	Temperature (generally how warm is it?) 
+•	Temperature Consistency (Are there large cold drafts when doors open? Are there some places where the insulation isn’t as good or there are air vents?) 
+•	Seat size 
+•	Seat comfort 
+•	Seat texture 
+•	Legroom 
+•	Crowded (furniture) 
+•	Crowded (people) 
+•	Room to sit on floor 
+•	Room to lay on floor 
+•	Less busy hours 
+•	Is it difficult to leave once seated? 
+•	Private rooms available? 
+•	Good place to go if overstimulated? 
+•	Private rooms available? (dining/study?) 
+•	Peaceful environment? Environmental distractions? 
+•	Noise canceling headphones available 
+•	Weighted blankets available 
+•	Sunglasses available 
+•	Quiet hour 
+•	Fidget toys available 
+•	Fidget toys welcome 
+•	Descriptions of the texture of food 
+•	Descriptions of the taste of food 
+•	Descriptions of the intensity of the taste of food 
+•	Is outside food allowed? 
+2.	Is there anything else you would like to share? 
+•	[textbox] 
+ 
+  
+Appendix 
+Appendix O 
+Service Animals Questionnaire 
+[These questions will be shown to people who selected Service Animals on Need Assessment question 11] 
+
+ 
+1.	What are your top concerns when bringing a service animal into public spaces? 
+•	Invasive questions  
+•	Access denial  
+•	Safety of the animal (from other animals)  
+•	Safety of the animal (from people)  
+•	Lack of awareness from staff  
+•	Lack of awareness from others (not staff)  
+•	Other: [textbox] 
+2.	Please select the features that would be most helpful for you to know: 
+•	Service animals allowed  
+•	Service animals welcome  
+•	Non-service animals allowed  
+•	Enforced leash requirements  
+•	Are animals regularly present?  
+•	Are there any Shop animals?  
+•	What kind of animals are present?  
+•	What kind of animals are allowed? 
+•	Pet-friendly inside, outside, or both 
+3.	Is there anything else you would like to share? 
+•	[textbox] 
+ 
+
+Appendix
+Appendix P 
+Speech Impediments/Non-speaking 
+[These questions will be shown to people who selected Speech Impediments/Non-speaking on Need Assessment question 11] 
+
+ 
+1.	Which of these features would be helpful for you to know about? 
+•	Patient staff 
+•	Quiet environment 
+•	ASL interpretation available 
+•	Written orders accepted 
+•	Low-pressure environment 
+•	Busy times 
+•	Not Listed [textbox] 
+2.	Is there anything else you would like to share? 
+•	[textbox] 
+ 
+ 
+  
+Appendix 
+Appendix Q 
+Transportation, Arrival, and Departure Accessibility Questionnaire 
+[These questions will be shown to people who selected Transportation, Arrival, and Departure on Need Assessment question 11] 
+Instructions: The following questions relate to parking accessibility, please answer to your comfort level, skipping any questions you don’t feel comfortable answering or you don’t feel would benefit you to answer. If you decide to stop participating and you do not want
+ 
+1.	Parking - Which of these features would be helpful for you to know about? 
+•	How much parking is available? 
+•	How many disabled parking spaces are there? 
+•	Price 
+•	Parallel parking 
+•	Crowded 
+•	Distance from disabled parking spots to destination 
+•	Distance from other parking spots to destination 
+•	Valet 
+•	Private lot parking 
+•	Parking garage 
+•	Not Listed [textbox] 
+ 
+2.	Public transit - Which of these features would be helpful for you to know about?
+•	Nearest bus stop  
+•	Nearest train station  
+•	Nearest subway station 
+•	Distance from nearest bus stop 
+•	Distance from nearest train station 
+•	Distance from nearest subway station 
+•	Terrain between location and bus stop 
+•	Terrain between location and train station 
+•	Terrain between location and subway station 
+•	Incline between location and public transportation 
+•	(If applicable) Nearest subway station accessible entrance. 
+•	(If applicable) Does the nearest subway station have elevator access? 
+•	Not listed [textbox] 
+ 
+3.	Other - Which of these features would be helpful for you to know about?
+•	Bike rack available 
+•	Nearest bike rack 
+•	Bike lanes nearby 
+•	Protected bike lanes nearby 
+•	Designated passenger drop off/pick up zone 
+•	Taxis nearby? 
+•	Not listed [textbox] 
+ 
+Appendix 
+Appendix R 
+Visual Accessibility Questionnaire 
+[These questions will be shown to people who selected Vision Impairment on Need Assessment question 11] 
+1.	What accommodation information would be most useful for you to know before choosing or visiting a destination? 
+•	detectable warning surfaces at destination 
+•	detectable warning surfaces on the way to destination 
+•	Well-lit environment 
+•	high/low contrast 
+•	illuminated signage 
+•	braille signage 
+•	directions/assistance available  
+•	braille-labeled recycling/trash compost 
+•	Sudden inclines 
+•	Notes of any weird layout choices  
+•	Ground type 
+•	Clear floors 
+•	Consistently located objects 
+•	Consistent layout 
+•	Paths clear 
+•	Paths marked with contrasting colors 
+•	Talking signs for directions 
+•	Audio descriptions for exhibits available 
+•	Audio announcement systems 
+•	Elevators have braille labels for buttons 
+•	Elevators have handrails 
+•	Elevators have audible floor indicator (Example: “Now on floor one”) 
+•	Elevators have audible direction indicator (Example: “Going up”) 
+•	Menu font accessibility 
+•	Audible menu available 
+•	Braille menu available 
+•	Private rooms available 
+•	Floor Plan Available with Description 
+•	Not Listed [textbox] 
+2.	Is there anything else you would like to share? 
+•	[textbox] 
+ 
+ 
+ 
+  
+Appendix 
+Appendix S 
+Content Priorities 
+1.	Which accessibility features do you consider most important when choosing a place or service? (Examples: wheelchair/other mobility aide accessibility, accessible parking, nearby parking, clear signage, well-lit spaces, dim-lit spaces, quiet environments, ASL interpretation, etc.) 
+•	[textbox] 
+2.	Please indicate how important each of the following are to you:  
+[Scale: Not at all important, Slightly important, Moderately important, Very important, Extremely important] 
+Statements: 
+a.	Accessibility information provided is verified by people who have real-life experience 
+b.	Ratings and Comments from people with similar accessibility needs are shown to me before other ratings or comments 
+c.	Anonymity 
+d.	No form of LLM (large language modeling or a non-generative form of artificial intelligence) is used to evaluate reviews (from other websites) for starting data 
+e.	Customizability of web experience (website color, font, etc.) 
+f.	Please select “Extremely important” to indicate that you are a human and paying attention
+g.	Accessibility preferences (on website and in person) do not need to be reselected each time I use the service 
+3.	Please indicate how valuable the following groups' assessment of accessibility are: 
+Scale [Scale: Not at all valuable, Slightly valuable, Moderately valuable, Very valuable, Extremely valuable]  
+Groups: 
+a.	Disabled person (with the accessibility need being reported on) 
+b.	Once disabled person (had the accessibility need being reported on, but no longer does) 
+c.	Disabled person (with a similar accessibility need (ex: wheelchair user vs. knee scooter user)) 
+d.	Caretaker of disabled person 
+4.	Would you be willing to share your status as one of the above answers (person with a disability, person who once had a disability, or caretaker) with your review? [people would be able to select a different reviewer name for every review they leave] 
+a.	Yes 
+b.	No 
+c.	It depends 
+d.	I would be willing to share some of my disabilities, I would not be willing to share others 
+e.	Not Listed [textbox] 
+ 
+5.	Select any additional features that would benefit you (multi-select):  
+a.	Multilingual employees, payment options available, environmentally friendly, price level, small business, ownership (Asian-owned, veteran-owned, etc.), ease of access with children (lactation room, kids meals, changing stations in all bathrooms), nearby public transit, bike parking, Not Listed [textbox] 
+ 
+6.	Please indicate whether the following would be useful to you: 
+a.	A search bar for reviews 
+b.	Buttons to press for certain review types 
+c.	Option to report lack of ADA compliance 
+d.	Not Listed [Textbox] 
+
+7.	Do you have any final questions, comments, or concerns?  
+a.	[textbox] 
+  
+
+Appendix 
+Appendix T 
+Demographics Questionnaire 
+Instructions: The following questions relate to your demographic information. The reasons for collecting this information are:  
+a.) So we can ensure the website serves the population it intends to in every way possible. 
+b.) In the event of publication, there would be demographic information available.  
+Immediately after the data collection period has ended, data will be cleaned, demographics information will be summarized, and any demographic information attached to your response will be deleted. 
+Only answer questions that you feel comfortable answering, and that will not reveal your identity.
+Questions: 
+1.	Please select your age group:  
+a.	18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84, 85+ 
+2.	What is your race and/or ethnicity? (select all that apply) 
+a.	"American Indian or Alaska Native”, "Asian or Asian Indian", "Black or African American", "Hispanic or Latino", "Middle Eastern or North African", "Native Hawaiian or Other Pacific Islander", "prefer not to answer", "White" 
+Self-identification is important, and we understand that we each have our own understanding of the words used to describe our own experiences. So that we can best honor your identity and experiences, please describe how you identify in the free response box AND select (as many as you want) from the list below. 
+3.	Select the term(s) with which you most identify (select all that apply) 
+a.	Response options = "Agender", "Cisgender (non-trans) Man", "Cisgender (non-trans) Woman", "Gender Non-conforming", "Gender Variant", "Genderqueer", "Genderfluid", "Intersex", "Non-binary", "Not Listed (Please specify)",  “Prefer not to say”, “Transgender”, "Transgender Man", "Transgender Woman" 
+ 
+ 
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+Appendix
+Appendix _
+Closing Screen
+
+
+
+
+Appendix
+Appendix _
+Optional final question—Separate Survey
