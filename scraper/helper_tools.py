@@ -1,7 +1,3 @@
-from dateutil.utils import today
-from selenium.webdriver.common.by import By
-import insert_data
-
 def convert_to_number(text):
     text = text.lower().replace(' reviews', '').replace('(', '').replace(')', '').replace('Helpful', '').replace('Not', '').replace('<!---->')
     if 'k' in text:
