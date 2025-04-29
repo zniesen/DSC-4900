@@ -32,6 +32,8 @@ This project was originally for my data science independent studies and the cour
 ## Scraping data from Yelp
 Here are the steps involved in my Yelp-Scraping Protocol
 
+### Step 1: Initialize SQL Database
+
 ### Step 2: Get a starting link
 
 #### a) Find a business you want to start with 
