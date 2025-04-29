@@ -1,40 +1,14 @@
-#### Imports ####
-
-# the classics
-import re
-import numpy as np
-import pandas as pd
-import requests
-from bs4 import BeautifulSoup
-import csv
-import os
-import string
+# Imports
 from datetime import time
-import numpy as np
-import pandas as pd
-import json
-import requests
-import sys
-import io
 
-# selenium
-from selenium.webdriver.common.keys import Keys
-from selenium import webdriver
+# Selenium
 from selenium.webdriver.support import wait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium import webdriver
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options
-from webdriver_manager.firefox import GeckoDriverManager
-#from selenium.webdriver.common.action_chains import ActionChains
 
-
-# local
+# Local
 import helper_tools
-import insert_data
-from database_setup import conn
 from insert_data import insert_answer, insert_question
 
 def go_to_next_question_page(driver):
@@ -46,7 +20,7 @@ def go_to_next_question_page(driver):
         time.sleep(3)  # Wait for page to load
         return True
     except:
-        return False  # No next button found, end pagination
+        return False  # No next button found, stop
 
 def checkforanswers(driver, business_id, question_id, question_element):
     try:
@@ -73,9 +47,6 @@ def checkforanswers(driver, business_id, question_id, question_element):
 
             updownvotes = answer.find_elements(By.CLASS_NAME, "y-css-1ickgui")
             helpfulness = helper_tools.convert_to_number(updownvotes[0].text) - helper_tools.convert_to_number(updownvotes[1].text)
-
-            # upvotes = int(convert_to_number(answer.find_element(By.CLASS_NAME, "y-css-1ickgui").text) or 0)  # Handle empty votes
-            # downvotes = int(convert_to_number(answer.find_element(By.CSS_SELECTOR, "y-css-1ickgui").text) or 0) # TODO FIX THIS
 
             # Insert into answers table
             insert_answer(business_id, question_id, answer_id, answer_text, time_posted, helpfulness)
