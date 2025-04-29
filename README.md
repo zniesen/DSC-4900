@@ -4,7 +4,6 @@
   - DSC-4900 - Data Science Project and Portfolio @ Belmont University
   - Author: Zoe Niesen
 
-[COMEBACK to edit # links]
 Table of Contents
 ---
    * [About the project](#about-the-project)
@@ -24,9 +23,8 @@ Table of Contents
 This project was originally for my data science independent studies and the course, DSC-4900, at Belmont University. I intend to continue applying what I have learned as I progress in my career and continue work on this. Currently, my progress is:
  - 1. Built a web scraping protocol to collect information from Yelp reviews, questions and answers, [COMEBACK]
  - 2. Review Analysis using NLP and data from the Yelp API to rate businesses on customer perception of accessibility as indicated by reviews.
- - 3. Built a KNN-based recommendation system that suggests businesses based on indicated accessibility needs.
- - 4. Wrote an IRB proposal to continue research using feedback from disabled populations (Under review)
- - 5. Designed a simple prototype of a user-facing interface to make accessibility information more discoverable.
+ - 3. Built a recommendation system and simple UI that suggests businesses based on indicated accessibility needs
+ - 4. Wrote an IRB proposal to continue research using feedback from disabled populations
 
  
 ## Scraping data from Yelp
