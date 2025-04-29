@@ -39,7 +39,7 @@ import helper_tools
 import business_information
 from selenium.webdriver.firefox.options import Options
 
-url = "https://www.yelp.com/"
+url = "https://www.yelp.com/" #edit as needed
 all_amenities = []
 driver = webdriver.Firefox(options=options)
 driver.implicitly_wait(4)
@@ -67,27 +67,15 @@ def scrape(driver, all_amenities):
     business_reviews = business_information.get_all_reviews(driver, pages, next_button)
     business_information.add_all_reviews(business_reviews, business_id)
 
+    #Q/A
     questions_answers.find_all_questions_and_answers(driver, business_id)
 
-
-
-
-
-
-    #moving to new page
+    #moving to new business page
     business_navi.simple_wander(driver)
 
-    #todo how am I setting business id?
-        #  maybe check the value of the last business id and add 1 to that?
-        # maybe also have a letter of the alphabet and make it a composite primary key?
-        # probably not the best idea bc it will be attached to the others
-
-born2run(driver, all_amenities)
+scrape(driver, all_amenities)
 
 
-#%%
-
-driver = webdriver.Firefox(options=options)
 driver.close()
 
 driver.quit()
