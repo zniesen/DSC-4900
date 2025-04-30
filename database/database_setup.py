@@ -1,95 +1,127 @@
 import sqlite3
 
-# Function to add a business
-def insert_business(business_id, business_name, address, phone, rating, num_revs, website, url, last_scraped):
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
-    cursor.execute("""
-        INSERT OR IGNORE INTO business VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-    """, (business_id, business_name, address, phone, rating, num_revs, website, url, last_scraped))
-    conn.commit()
-    conn.close()
+# Connect to SQLite database (or create one if it doesn't exist)
+db_path = "yelp_data.db"
+conn = sqlite3.connect(db_path)
+cursor = conn.cursor()
 
-def insert_business_amenities(business_id, amenities):
-    final_string = ", ".join(amenities)  # Join amenities into a single string
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
-    cursor.execute("""
-        INSERT OR IGNORE INTO business_amenities VALUES (?, ?)
-    """, (business_id, final_string))
-    conn.commit()
-    conn.close()
+# Create 'business' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS business (
+        business_id TEXT PRIMARY KEY,
+        business_name TEXT,
+        address TEXT,
+        phone TEXT,
+        rating TEXT,
+        num_revs INTEGER,
+        website TEXT,
+        url TEXT,
+        last_scraped DateTime
+    )
+""")
 
-# Function to add a review
-def insert_review(review_id, business_id, review_content):
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
-    # Check if the business exists
-    cursor.execute("SELECT business_id FROM business WHERE business_id = ?", (business_id,))
-    if cursor.fetchone() is None:
-        print(f"Business ID {business_id} not found! Add the business first.")
-        conn.close()
-        return
+# Create 'reviews' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS reviews (
+        business_id TEXT,
+        review_id TEXT,
+        review_content TEXT,
+        PRIMARY KEY (business_id, review_id),
+        FOREIGN KEY (business_id) REFERENCES business (business_id)
+    )
+""")
 
-    cursor.execute("""
-        INSERT OR IGNORE INTO reviews VALUES (?, ?, ?)
-    """, (business_id, review_id, review_content))
+# Create 'reviews2' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS reviews2 (
+        business_id TEXT,
+        review_id TEXT,
+        review_content TEXT,
+        user_id TEXT,
+        rating INTEGER,
+        useful INTEGER,
+        funny INTEGER,
+        cool INTEGER,
+        date DateTime,
+        PRIMARY KEY (business_id, review_id),
+        FOREIGN KEY (business_id) REFERENCES business (business_id)
+    )
+""")
 
-    conn.commit()
-    conn.close()
+# Create 'business_hours' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS business_hours (
+        business_id TEXT PRIMARY KEY,
+        monday TEXT,
+        tuesday TEXT,
+        wednesday TEXT,
+        thursday TEXT,
+        friday TEXT,
+        saturday TEXT,
+        sunday TEXT,
+        FOREIGN KEY (business_id) REFERENCES business (business_id)
+    )
+""")
 
-def insert_amenity(amenity_name):
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
-    cursor.execute("""
-        INSERT OR IGNORE INTO amenities VALUES (?, ?)
-    """, (amenity_name, "NULL"))  # Note the comma to make it a tuple
-    conn.commit()
-    conn.close()
+# Create 'amenities' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS amenities (
+        amenity_name TEXT PRIMARY KEY,
+        icon TEXT
+    )
+""")
 
-def insert_amenity_and_icon(amenity_name, icon_name):
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
-    cursor.execute("""
-        INSERT OR IGNORE INTO amenities VALUES (?, ?)
-    """, (amenity_name, icon_name))  # Note the comma to make it a tuple
-    conn.commit()
-    conn.close()
+# Create 'questions' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS questions (
+        business_id TEXT,
+        question_id TEXT,
+        question_text TEXT,
+        FOREIGN KEY (business_id) REFERENCES business (business_id),
+        PRIMARY KEY (business_id, question_id)
+    )
+""")
 
-def insert_question(business_id, question_id, question_content):
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
+# Create 'answers' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS answers (
+        business_id TEXT,
+        question_id TEXT,
+        answer_id TEXT,
+        answer_text TEXT,
+        answer_date TEXT,
+        helpfulness INTEGER,
+        FOREIGN KEY (business_id, question_id) REFERENCES questions (business_id, question_id),
+        PRIMARY KEY (business_id, question_id, answer_id)
+    )
+""")
 
-    # Check if the business exists
-    cursor.execute("SELECT business_id FROM business WHERE business_id = ?", (business_id,))
-    if cursor.fetchone() is None:
-        print(f"Business ID {business_id} not found! Add the business first.")
-        conn.close()
-        return
+# Create 'business_amenities' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS business_amenities (
+        business_id TEXT,
+        attributes TEXT,
+        FOREIGN KEY (business_id) REFERENCES business (business_id),
+        PRIMARY KEY (business_id, attributes)
+    )
+""")
 
-    cursor.execute("""
-        INSERT OR IGNORE INTO questions VALUES (?, ?, ?)
-    """, (business_id, question_id, question_content))
-    conn.commit()
-    conn.close()
+# Create 'unvisited' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS unvisited (
+        link TEXT PRIMARY KEY        
+    )
+""")
 
-def insert_answer(business_id, question_id, answer_id, answer_content, answer_date, helpfulness):
-    conn = sqlite3.connect('yelp_data.db')
-    cursor = conn.cursor()
+# Create 'visited' table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS visited (
+        link TEXT PRIMARY KEY        
+    )
+""")
 
-    # Check if the business exists
-    cursor.execute("SELECT business_id FROM business WHERE business_id = ?", (business_id,))
-    if cursor.fetchone() is None:
-        print(f"Business ID {business_id} not found! Add the business first.")
-        conn.close()
-        return
+# Commit and close the connection
+conn.commit()
+conn.close()
 
-    cursor.execute("""
-        INSERT OR IGNORE INTO answers VALUES (?, ?, ?, ?, ?, ?)
-    """, (business_id, question_id, answer_id, answer_content, answer_date, helpfulness))
-
-    conn.commit()
-    conn.close()
-
-print("Functions for inserting data are ready to use.")
-
+print("Database setup complete!")
