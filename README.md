@@ -10,7 +10,7 @@ Table of Contents
    * [Database Creation](#database-creation)
    * [Web Scraper](#scraping-data-from-yelp)
    * [Analysis and Recommendations](#analysis-and-recommendations)
-   * [Streamlit App] (#streamlit-interface-for-accessibility-based-recommendations)
+   * [Streamlit App](#streamlit-app)
    * [IRB](#irb)
 
 ## About the project
@@ -86,7 +86,7 @@ For each business, the final output includes:
 - Breakdown of accessibility feature scores per business
 - Weighted recommendation ranking
 
-## Streamlit Interface for Accessibility-Based Recommendations
+## Streamlit App
 This Streamlit application provides a customized accessibility search tool, allowing users to filter businesses based on their specific needs. It includes multiple accessibility-enhancing features, such as text size adjustments and text-to-speech, ensuring an inclusive experience.
 
 ### Personalized Business Recommendations
