@@ -20,7 +20,7 @@ This project was originally for my data science independent studies and the cour
  - 3. Built a recommendation system and simple UI that suggests businesses based on indicated accessibility needs
  - 4. Wrote an IRB proposal to continue research using feedback from disabled populations
 
-##Languages Used
+### Languages Used
 - Python
 - SQL
 - Javascript
