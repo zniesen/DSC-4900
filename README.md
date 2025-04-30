@@ -49,8 +49,12 @@ python scraper/scrape.py
 
 ## Data Analysis, Recommendations, User Interface
 ### Dataset Information
-The data used for this project was a combination of data I scraped prior to Yelp's security escalation, data I scraped manually, the Yelp API, and multiple public Kaggle datasets _**(COME BACK)**_
--
+Dataset Information
+The dataset comprises a mix of:
+- Previously scraped data (before Yelp's security escalation)
+- Manually scraped data
+- Yelp API responses
+- Public Kaggle datasets
 
 ### Merged Data Dictionary
 The datasets are merged using LINK TO CODE HERE, which produces "merged.csv", a csv with the following columns:
@@ -64,7 +68,36 @@ The datasets are merged using LINK TO CODE HERE, which produces "merged.csv", a 
 | `category` | **come back** |
 | `from` | the dataset the review came from |
 
-## Scraping data from Yelp
+### Data Analysis
+This section covers the methodology for analyzing business reviews to assess accessibility features and sentiment trends using Natural Language Processing (NLP).
+#### Accessibility Analysis Overview
+The system processes review text to identify keywords related to accessibility features such as mobility accommodations, visual impairments, auditory sensitivity, and more. Sentiment analysis is applied to quantify positive, neutral, and negative experiences for each business.
+##### Processing Steps
+- **Extract Accessibility Keywords**: Using precompiled regex patterns, the script identifies relevant accessibility terms from business reviews.
+- **Sentiment Analysis**: Uses NLTK’s Vader Sentiment Analyzer to score reviews.
+- **Accessibility Scoring**: Each review's sentiment score is multiplied by the presence and frequency of accessibility keywords in each category, creating a weighted rating for multiple accessibility features.
+- **Aggregated Business-Level Insights**: Reviews are grouped by business, accessibility scores from each review are aggregated to create an overview of the business location's accessibilty.
+- **Adjust for Review Count**: The system adjusts for review count, producing normalized scores for accurate comparison.
+
+#### Final Accessibility Score Computation COME BACK
+For each business, the final output includes:
+- Overall accessibility score (sum of individual feature scores)
+- Sentiment-adjusted accessibility impact
+- Breakdown of accessibility feature scores per business
+- Weighted recommendation ranking
+
+### Streamlit Interface for Accessibility-Based Recommendations
+This Streamlit application provides a customized accessibility search tool, allowing users to filter businesses based on their specific needs. It includes multiple accessibility-enhancing features, such as text size adjustments, high contrast mode, and text-to-speech, ensuring an inclusive experience.
+
+### Personalized Business Recommendations
+The app uses business accessibility scores to rank and suggest locations based on selected accessibility needs.
+- Users select relevant accessibility categories (mobility, cognitive accessibility, sensory sensitivities, etc.)
+- A weighting system allows users to prioritize certain accessibility factors.
+- Businesses are sorted dynamically based on the weighted score, ensuring personalized recommendations.
+- If no accessibility needs are provided, then they are sorted based on overall accessibility scores
+
+
+
 
 
 
