@@ -7,6 +7,7 @@
 Table of Contents
 ---
    * [About the project](#about-the-project)
+   * [Database Creation](#database-creation)
    * [Web Scraper](#scraping-data-from-yelp)
       * [Step 1: Initialize SQL Database](#step-1-initialize-sql-database)
       * [Step 2: Collect some business links](#step-2-collect-some-business-links) 
@@ -32,7 +33,7 @@ This project was originally for my data science independent studies and the cour
 - Javascript
 - CSS
 
-##
+## Database Creation
 
 ## Scraping data from Yelp
 Here are the steps involved in my Yelp-Scraping Protocol
