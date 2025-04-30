@@ -34,18 +34,27 @@ This project was originally for my data science independent studies and the cour
 - CSS
 
 ## Database Creation
+The database manages data storage and organization for the Yelp Web scraping process using SQLite. Below is an outline of its structure and functionality.
+
+#### Business Table: 
+- Stores basic information about businesses listed on Yelp.
+- Fields: business_id, business_name, address, phone, rating, num_revs (number of reviews), website, url, last_scraped.
+
+#### Business Amenities Table: 
+- Tracks amenities offered by businesses to enhance accessibility.
+- Fields: business_id, amenities (comma-separated string).
+- Function: insert_business_amenities() combines amenities into a single string and links them to the respective business.
+
+#### Reviews Table
+Holds user-generated reviews for businesses.
+- Fields: review_id, business_id, review_content.
+- Function: insert_review() associates reviews with their corresponding business and prevents inserting orphaned reviews.
+
 
 ## Scraping data from Yelp
-Here are the steps involved in my Yelp-Scraping Protocol
+Yelp Web scraping process is recursive. ALlowing users to only input one URL, and then it flows from there. Unfortunately due to c are the steps involved in my Yelp-Scraping Protocol
 
-### Step 1: Initialize SQL Database
 
-### Step 2: Get a starting link
-
-#### a) Find a business you want to start with 
-```
-python scraper/scrape.py
-```
 
 ## Data Analysis, Recommendations, User Interface
 ### Dataset Information
@@ -87,7 +96,7 @@ For each business, the final output includes:
 - Weighted recommendation ranking
 
 ### Streamlit Interface for Accessibility-Based Recommendations
-This Streamlit application provides a customized accessibility search tool, allowing users to filter businesses based on their specific needs. It includes multiple accessibility-enhancing features, such as text size adjustments, high contrast mode, and text-to-speech, ensuring an inclusive experience.
+This Streamlit application provides a customized accessibility search tool, allowing users to filter businesses based on their specific needs. It includes multiple accessibility-enhancing features, such as text size adjustments and text-to-speech, ensuring an inclusive experience.
 
 ### Personalized Business Recommendations
 The app uses business accessibility scores to rank and suggest locations based on selected accessibility needs.
@@ -95,6 +104,9 @@ The app uses business accessibility scores to rank and suggest locations based o
 - A weighting system allows users to prioritize certain accessibility factors.
 - Businesses are sorted dynamically based on the weighted score, ensuring personalized recommendations.
 - If no accessibility needs are provided, then they are sorted based on overall accessibility scores
+
+Streamlit App is available at: recommenderapppy-hrgmn7c2smogj4oca5iq5b.streamlit.app
+
 
 
 
