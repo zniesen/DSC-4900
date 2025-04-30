@@ -22,7 +22,7 @@ Table of Contents
 
 ## About the project
 This project was originally for my data science independent studies and the course, DSC-4900, at Belmont University. I intend to continue applying what I have learned as I progress in my career and continue work on this. Currently, my progress is:
- - 1. Built a web scraping protocol to collect information from Yelp reviews, questions and answers, [COMEBACK]
+ - 1. Built a web scraping protocol to collect information from Yelp reviews, questions and answers, and more
  - 2. Review Analysis using NLP and data from the Yelp API to rate businesses on customer perception of accessibility as indicated by reviews.
  - 3. Built a recommendation system and simple UI that suggests businesses based on indicated accessibility needs
  - 4. Wrote an IRB proposal to continue research using feedback from disabled populations
@@ -50,11 +50,8 @@ Holds user-generated reviews for businesses.
 - Fields: review_id, business_id, review_content.
 - Function: insert_review() associates reviews with their corresponding business and prevents inserting orphaned reviews.
 
-
 ## Scraping data from Yelp
-Yelp Web scraping process is recursive. ALlowing users to only input one URL, and then it flows from there. Unfortunately due to c are the steps involved in my Yelp-Scraping Protocol
-
-
+The Yelp Web scraping process is recursive. ALlowing users to only input one URL, and then it flows from there. Unfortunately due to Yelp cracking down on web scraping. The cureent code is not functional on it's own. 
 
 ## Data Analysis, Recommendations, User Interface
 ### Dataset Information
@@ -71,10 +68,10 @@ The datasets are merged using LINK TO CODE HERE, which produces "merged.csv", a 
 |--------|-------------|
 | `business_id` | A unique identifier for each business, either provided in the dataset, or produced using the business name or part of the review site url|
 | `title` | The name of the location |
-| `review_id` | An identifier for each review either provided in the dataset, **or produced by counting upwards and reseting for each business ** COME BACK|
+| `review_id` | An identifier for each review either provided in the dataset, or produced by counting upwards and reseting for each business|
 | `date` | a value representing the date scraped or the date the review was posted, depending on the dataset. It is included to offer an approximation of how up-to-date the information provided in the review is|
 | `review_text` | the review content|
-| `category` | **come back** |
+| `category` | type of location |
 | `from` | the dataset the review came from |
 
 ### Data Analysis
@@ -88,7 +85,7 @@ The system processes review text to identify keywords related to accessibility f
 - **Aggregated Business-Level Insights**: Reviews are grouped by business, accessibility scores from each review are aggregated to create an overview of the business location's accessibilty.
 - **Adjust for Review Count**: The system adjusts for review count, producing normalized scores for accurate comparison.
 
-#### Final Accessibility Score Computation COME BACK
+#### Final Accessibility Score Computation COME
 For each business, the final output includes:
 - Overall accessibility score (sum of individual feature scores)
 - Sentiment-adjusted accessibility impact
@@ -106,6 +103,9 @@ The app uses business accessibility scores to rank and suggest locations based o
 - If no accessibility needs are provided, then they are sorted based on overall accessibility scores
 
 Streamlit App is available at: recommenderapppy-hrgmn7c2smogj4oca5iq5b.streamlit.app
+
+##IRB 
+The IRB proposal is listed under the IRB directory of this repository. It is not yet approved.
 
 
 
