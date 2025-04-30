@@ -39,14 +39,32 @@ The database manages data storage and organization for the Yelp Web scraping pro
 - Function: insert_business_amenities() combines amenities into a single string and links them to the respective business.
 
 #### Reviews Table
-Holds user-generated reviews for businesses.
+- Holds user-generated reviews for businesses.
 - Fields: review_id, business_id, review_content.
 - Function: insert_review() associates reviews with their corresponding business and prevents inserting orphaned reviews.
 
-## Scraping data from Yelp
-The Yelp Web scraping process is recursive. ALlowing users to only input one URL, and then it flows from there. Unfortunately due to Yelp cracking down on web scraping. The cureent code is not functional on it's own. 
+#### Amenities Table
+- Catalogs available amenities with optional icons for accessibility features.
+- Fields: amenity_name, icon_name.
 
-## Data Analysis, Recommendations, User Interface
+#### Questions Table
+- Captures customer-submitted questions about a business.
+- Fields: business_id, question_id, question_content.
+
+#### Answers Table
+- Stores answers to customer questions.
+- Fields: business_id, question_id, answer_id, answer_content, answer_date, helpfulness.
+
+## Scraping data from Yelp
+The Yelp Web scraping process is recursive. ALlowing users to only input one URL, and then it flows from there. Unfortunately due to Yelp cracking down on web scraping. The current code is not functional on it's own.
+- **Automated Navigation**: The scraper iterates through business pages, following pagination to continuously collect new data.
+- **Business Details Extraction**: Captures metadata such as name, rating, and amenities.
+- **Efficient Data Storage**: Collected data is processed and stored in a structured database for further analysis.
+- **Self-Sustaining Process**: The script recursively moves to the next page, ensuring a thorough collection until no more data is available, then it moves to the next business. This page-scraping process is applied to reviews and to questions and answers.
+
+#### Tools: Selenium, BeautifulSoup, Requests
+
+## Data Analysis and Recommendations
 ### Dataset Information
 Dataset Information
 The dataset comprises a mix of:
@@ -101,7 +119,7 @@ The app uses business accessibility scores to rank and suggest locations based o
 ##### Images of it in action available here: https://drive.google.com/drive/folders/13Dn8QW4wS4s1wmT70GKL8YV8mVgnaSXx?usp=drive_link
 
 ## IRB 
-The IRB proposal is listed under the IRB directory of this repository. It is not yet approved.
+The IRB proposal is listed under the IRB directory of this repository. It is not yet approved. The goal of the study is to receive feedback from disabled individuals on what accessibility information would be helpful for them to have in order to inform this venture. 
 
 
 
