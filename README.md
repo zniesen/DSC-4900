@@ -97,7 +97,7 @@ The app uses business accessibility scores to rank and suggest locations based o
 
 ##### Streamlit App is available at: recommenderapppy-hrgmn7c2smogj4oca5iq5b.streamlit.app
 
-##### Images of it in action available [Here] (https://drive.google.com/drive/folders/13Dn8QW4wS4s1wmT70GKL8YV8mVgnaSXx?usp=drive_link)
+##### Images of it in action available here: https://drive.google.com/drive/folders/13Dn8QW4wS4s1wmT70GKL8YV8mVgnaSXx?usp=drive_link
 
 ##IRB 
 The IRB proposal is listed under the IRB directory of this repository. It is not yet approved.
