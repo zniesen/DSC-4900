@@ -9,16 +9,8 @@ Table of Contents
    * [About the project](#about-the-project)
    * [Database Creation](#database-creation)
    * [Web Scraper](#scraping-data-from-yelp)
-      * [Step 1: Initialize SQL Database](#step-1-initialize-sql-database)
-      * [Step 2: Collect some business links](#step-2-collect-some-business-links) 
-      * [Step 3: Run scraper on your link](#step-3-run-scraper-on-your-link)
-   * Analysis and Recommendations](#analysis-and-recommendations)
-      * [Review Analysis](#review-analysis)
-      * [Content-based Recommendation](#content-based-recommendation)
-      * [Screenlit Recommendation App](#screenlit-recommendation-app)
+   * [Analysis and Recommendations](#analysis-and-recommendations)
    * [IRB](#irb)
-      * [IRB Proposal](#irb-proposal)
-
 
 ## About the project
 This project was originally for my data science independent studies and the course, DSC-4900, at Belmont University. I intend to continue applying what I have learned as I progress in my career and continue work on this. Currently, my progress is:
@@ -78,6 +70,7 @@ The datasets are merged using LINK TO CODE HERE, which produces "merged.csv", a 
 This section covers the methodology for analyzing business reviews to assess accessibility features and sentiment trends using Natural Language Processing (NLP).
 #### Accessibility Analysis Overview
 The system processes review text to identify keywords related to accessibility features such as mobility accommodations, visual impairments, auditory sensitivity, and more. Sentiment analysis is applied to quantify positive, neutral, and negative experiences for each business.
+
 ##### Processing Steps
 - **Extract Accessibility Keywords**: Using precompiled regex patterns, the script identifies relevant accessibility terms from business reviews.
 - **Sentiment Analysis**: Uses NLTK’s Vader Sentiment Analyzer to score reviews.
@@ -85,7 +78,7 @@ The system processes review text to identify keywords related to accessibility f
 - **Aggregated Business-Level Insights**: Reviews are grouped by business, accessibility scores from each review are aggregated to create an overview of the business location's accessibilty.
 - **Adjust for Review Count**: The system adjusts for review count, producing normalized scores for accurate comparison.
 
-#### Final Accessibility Score Computation COME
+##### Final Accessibility Score Computation 
 For each business, the final output includes:
 - Overall accessibility score (sum of individual feature scores)
 - Sentiment-adjusted accessibility impact
@@ -102,7 +95,9 @@ The app uses business accessibility scores to rank and suggest locations based o
 - Businesses are sorted dynamically based on the weighted score, ensuring personalized recommendations.
 - If no accessibility needs are provided, then they are sorted based on overall accessibility scores
 
-Streamlit App is available at: recommenderapppy-hrgmn7c2smogj4oca5iq5b.streamlit.app
+##### Streamlit App is available at: recommenderapppy-hrgmn7c2smogj4oca5iq5b.streamlit.app
+
+##### Images of it in action available [Here] (https://drive.google.com/drive/folders/13Dn8QW4wS4s1wmT70GKL8YV8mVgnaSXx?usp=drive_link)
 
 ##IRB 
 The IRB proposal is listed under the IRB directory of this repository. It is not yet approved.
